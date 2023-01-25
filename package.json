@@ -10,14 +10,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:suborbital.helloWorld"
+    "onCommand:suborbital.suborbital"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "suborbital.helloWorld",
-        "title": "Hello World"
+        "command": "suborbital.suborbital",
+        "title": "Suborbital"
       }
     ]
   },
