@@ -10,10 +10,20 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:suborbital.suborbital"
+    "*"
   ],
   "main": "./dist/extension.js",
   "contributes": {
+    "views": {
+      "test": [
+        {
+          "id": "suborbital-button",
+          "name": "Run Suborbital",
+          "icon": "resources/subo.svg",
+          "contextualTitle": "Suborbital"
+        }
+      ]
+    },
     "commands": [
       {
         "command": "suborbital.suborbital",
